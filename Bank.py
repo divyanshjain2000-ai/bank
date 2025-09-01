@@ -5,7 +5,7 @@ import pandas as pd
 st.title('Bank Customer Churn Prediction')
 
 # Load the saved model and scaler
-model = joblib.load('logistic_regression_model.pkl')
+model = model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 st.header('Enter Customer Details:')
