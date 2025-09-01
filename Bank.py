@@ -6,7 +6,7 @@ st.title('Bank Customer Churn Prediction')
 
 # Load the saved model and scaler
 model = model = joblib.load('model.pkl')
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('./path/to/scaler.pkl')
 
 st.header('Enter Customer Details:')
 
